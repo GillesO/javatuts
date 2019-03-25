@@ -1,12 +1,9 @@
+import java.util.Scanner;
+
 class mango{
 	public static void main (String args[]){
-		double cheese;
-		cheese = 10.00;
+		Scanner duck = new Scanner(System.in);
+		System.out.println(duck.nextLine());
 
-
-		System.out.print("need to eat");
-		System.out.print(cheese);
-		System.out.println("cinema");
-		System.out.print("mango");
 	}	
 }
