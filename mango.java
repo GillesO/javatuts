@@ -4,11 +4,11 @@ class mango{
 	public static void main (String args[]){
 		Scanner duck = new Scanner(System.in);
 
-		int girls, boys, people;
-		girls = 10;
-		boys = 6;
-		people = girls % boys;
-		System.out.println(people);
-	
+		int egg = 8;
+		int veggie = 22;
+
+		egg *=5;
+
+		System.out.println (egg);
 	}	
 }
