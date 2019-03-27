@@ -2,14 +2,22 @@
 
 class mango{
 	public static void main (String args[]){
-		int boy, girl;
-		boy  = 19;
-		girl = 100;
+		int age;
+		age = 3;
 
-		if (boy > 20 || girl < 80){
-			System.out.println("you can enter");
-		}else{
-			System.out.println("you can not enter");
+		switch (age){
+		case 1:
+			System.out.println("you can go home");
+			break;
+		case 2:
+			System.out.println("you can warlk");
+			break;
+		case 3:
+			System.out.println("you can grab");
+			break;
+		default:
+			System.out.println("I dont know old are you");
+		break;	
 		}
 	}	
 }
