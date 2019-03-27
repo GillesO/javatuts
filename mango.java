@@ -1,13 +1,15 @@
-import java.util.Scanner;
+
 
 class mango{
 	public static void main (String args[]){
-		int test = 22;
+		int boy, girl;
+		boy  = 19;
+		girl = 100;
 
-		if  (test < 10) {
-			System.out.println("yes");
+		if (boy > 20 || girl < 80){
+			System.out.println("you can enter");
 		}else{
-			System.out.println("this is else");
+			System.out.println("you can not enter");
 		}
 	}	
 }
